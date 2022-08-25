@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\test\07_Func\01_FuncExpand\main.cpp">
+      <Filter>01_FuncExpand</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\test\07_Func\01_FuncExpand\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01_FuncExpand">
+      <UniqueIdentifier>{8EB520EA-B485-3844-9205-C94954277BF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

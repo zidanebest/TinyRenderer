@@ -1,0 +1,150 @@
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\427AA2765AA0B86E0A5521D86C82D441\UCMAKE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\427AA2765AA0B86E0A5521D86C82D441\UCMAKE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\427AA2765AA0B86E0A5521D86C82D441\UCMAKE-POPULATE-UPDATE.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\ucmake-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\427AA2765AA0B86E0A5521D86C82D441\UCMAKE-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\427AA2765AA0B86E0A5521D86C82D441\UCMAKE-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\427AA2765AA0B86E0A5521D86C82D441\UCMAKE-POPULATE-BUILD.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\427AA2765AA0B86E0A5521D86C82D441\UCMAKE-POPULATE-INSTALL.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\427AA2765AA0B86E0A5521D86C82D441\UCMAKE-POPULATE-TEST.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\43DF3F776081D0AFF147C4006C9B60C2\UCMAKE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/Debug/ucmake-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\AB7D89D2E0D34FEFB3A20CA4E13255A0\UCMAKE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild -BC:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild --check-stamp-file C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

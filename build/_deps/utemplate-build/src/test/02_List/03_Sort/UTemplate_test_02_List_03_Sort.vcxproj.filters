@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\test\02_List\03_Sort\main.cpp">
+      <Filter>03_Sort</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\test\02_List\03_Sort\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="03_Sort">
+      <UniqueIdentifier>{9F7DA661-6669-350E-9597-C8042FE8B987}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

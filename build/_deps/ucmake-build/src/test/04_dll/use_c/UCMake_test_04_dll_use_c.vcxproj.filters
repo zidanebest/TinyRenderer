@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\04_dll\use_c\main.c">
+      <Filter>use_c</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\04_dll\use_c\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="use_c">
+      <UniqueIdentifier>{AB85400E-CB1C-3937-B956-51D160FC4A4A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

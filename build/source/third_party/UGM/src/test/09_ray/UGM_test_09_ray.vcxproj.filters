@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\test\09_ray\main.cpp">
+      <Filter>09_ray</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\test\09_ray\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\MainDic\TinyRenderer\source\third_party\UGM\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="09_ray">
+      <UniqueIdentifier>{9F12C487-1661-3564-8B83-20CA6065AA03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

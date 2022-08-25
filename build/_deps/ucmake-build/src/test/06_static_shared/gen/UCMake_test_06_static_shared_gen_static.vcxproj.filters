@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\06_static_shared\gen\mul.cpp">
+      <Filter>gen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\06_static_shared\gen\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="gen">
+      <UniqueIdentifier>{7E76C5DE-DBB6-30EE-9EF0-995240285094}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

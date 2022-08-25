@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\06_static_shared\use_static\main.cpp">
+      <Filter>use_static</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\06_static_shared\use_static\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="use_static">
+      <UniqueIdentifier>{A04D0976-D8C9-3EF2-91AB-62DE9D44F462}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

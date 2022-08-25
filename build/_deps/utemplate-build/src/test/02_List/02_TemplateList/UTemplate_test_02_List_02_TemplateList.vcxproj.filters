@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\test\02_List\02_TemplateList\main.cpp">
+      <Filter>02_TemplateList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\test\02_List\02_TemplateList\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02_TemplateList">
+      <UniqueIdentifier>{02F41797-7B29-328C-BAEE-E66E598EAC68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

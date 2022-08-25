@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\06_static_shared\use_shared\main.cpp">
+      <Filter>use_shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\06_static_shared\use_shared\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="use_shared">
+      <UniqueIdentifier>{B708414C-A396-3CD2-B576-CB2FC1974DD0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\05_dll_class\virtual\use_dynamic\main.cpp">
+      <Filter>use_dynamic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\05_dll_class\virtual\use_dynamic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="use_dynamic">
+      <UniqueIdentifier>{935B96E7-A6E2-37B4-A5CA-1E6AF95F21C7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

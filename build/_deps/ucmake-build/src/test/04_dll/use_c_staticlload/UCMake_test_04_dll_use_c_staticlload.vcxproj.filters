@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\04_dll\use_c_staticlload\main.c">
+      <Filter>use_c_staticlload</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\04_dll\use_c_staticlload\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="use_c_staticlload">
+      <UniqueIdentifier>{5C4DEAC1-A7EA-338B-89EC-B7F158B9422D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

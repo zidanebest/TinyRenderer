@@ -1,0 +1,10 @@
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SRC\SRC\TEST\11_NAMETRATIS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer -BC:/MainDic/TinyRenderer/build --check-stamp-file C:/MainDic/TinyRenderer/build/_deps/utemplate-build/src/test/11_NameTratis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

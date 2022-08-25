@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\CMakeFiles\60cb1f946908bfb76d6ac2b040844b5e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{64C43111-878F-3CFC-B454-546389D786D4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

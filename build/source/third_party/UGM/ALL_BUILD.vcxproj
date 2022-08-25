@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5D3DF5CB-21E4-3076-ABD3-F783344745D0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\source\third_party\UGM\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MainDic/TinyRenderer/source/third_party/UGM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer -BC:/MainDic/TinyRenderer/build --check-stamp-file C:/MainDic/TinyRenderer/build/source/third_party/UGM/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MainDic\TinyRenderer\source\third_party\UGM\cmake\InitUCMake.cmake;C:\MainDic\TinyRenderer\source\third_party\UGM\config\Config.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MainDic\TinyRenderer\build\source\third_party\UGM\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MainDic/TinyRenderer/source/third_party/UGM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer -BC:/MainDic/TinyRenderer/build --check-stamp-file C:/MainDic/TinyRenderer/build/source/third_party/UGM/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MainDic\TinyRenderer\source\third_party\UGM\cmake\InitUCMake.cmake;C:\MainDic\TinyRenderer\source\third_party\UGM\config\Config.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MainDic\TinyRenderer\build\source\third_party\UGM\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/MainDic/TinyRenderer/source/third_party/UGM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer -BC:/MainDic/TinyRenderer/build --check-stamp-file C:/MainDic/TinyRenderer/build/source/third_party/UGM/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MainDic\TinyRenderer\source\third_party\UGM\cmake\InitUCMake.cmake;C:\MainDic\TinyRenderer\source\third_party\UGM\config\Config.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MainDic\TinyRenderer\build\source\third_party\UGM\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/MainDic/TinyRenderer/source/third_party/UGM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer -BC:/MainDic/TinyRenderer/build --check-stamp-file C:/MainDic/TinyRenderer/build/source/third_party/UGM/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MainDic\TinyRenderer\source\third_party\UGM\cmake\InitUCMake.cmake;C:\MainDic\TinyRenderer\source\third_party\UGM\config\Config.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MainDic\TinyRenderer\build\source\third_party\UGM\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\ZERO_CHECK.proj">
+      <Project>{715C58B8-D6E9-3BA7-8C59-709FEF84192F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\EMPTY\UCMake_EMPTY.vcxproj">
+      <Project>{1FA1188F-6C9F-3C8A-A6A6-B3B0A9494257}</Project>
+      <Name>UCMake_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\02_cpp20\UCMake_test_02_cpp20.vcxproj">
+      <Project>{1EB8F6EF-66AF-3C6F-BB61-896F0218C763}</Project>
+      <Name>UCMake_test_02_cpp20</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\03_lib\gen\UCMake_test_03_lib_gen.vcxproj">
+      <Project>{8CC1310E-E9AC-3683-BC9B-A6CEEA2E91F1}</Project>
+      <Name>UCMake_test_03_lib_gen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\03_lib\use\UCMake_test_03_lib_use.vcxproj">
+      <Project>{D8620BD2-FF0C-3B1C-88D3-A12427DF9613}</Project>
+      <Name>UCMake_test_03_lib_use</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\04_dll\gen\UCMake_test_04_dll_gen.vcxproj">
+      <Project>{AD1C5751-4D37-3CAC-BCC8-E44063D8CAD6}</Project>
+      <Name>UCMake_test_04_dll_gen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\04_dll\use_c\UCMake_test_04_dll_use_c.vcxproj">
+      <Project>{CC4CE067-BD6D-355B-AC39-504401F822DF}</Project>
+      <Name>UCMake_test_04_dll_use_c</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\04_dll\use_c_dynamicload\UCMake_test_04_dll_use_c_dynamicload.vcxproj">
+      <Project>{3D537F4C-7ADF-39B0-91F1-36F7D4256141}</Project>
+      <Name>UCMake_test_04_dll_use_c_dynamicload</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\04_dll\use_c_staticlload\UCMake_test_04_dll_use_c_staticlload.vcxproj">
+      <Project>{7488978E-789E-3B39-B18D-382E9C3AB639}</Project>
+      <Name>UCMake_test_04_dll_use_c_staticlload</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\04_dll\use_dynamicload\UCMake_test_04_dll_use_dynamicload.vcxproj">
+      <Project>{B8601E2B-564B-3FD4-A867-3F8B92E630EF}</Project>
+      <Name>UCMake_test_04_dll_use_dynamicload</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\04_dll\use_staticload\UCMake_test_04_dll_use_staticload.vcxproj">
+      <Project>{5608BCC8-A4B4-3587-9D80-C33689C580F2}</Project>
+      <Name>UCMake_test_04_dll_use_staticload</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\05_dll_class\classic\gen\UCMake_test_05_dll_class_classic_gen.vcxproj">
+      <Project>{4ADC2D9A-0879-3F65-A55E-08790AB978D6}</Project>
+      <Name>UCMake_test_05_dll_class_classic_gen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\05_dll_class\classic\use_c_dynamic\UCMake_test_05_dll_class_classic_use_c_dynamic.vcxproj">
+      <Project>{621F8FF0-1D9D-3334-81E8-89E065A88AB3}</Project>
+      <Name>UCMake_test_05_dll_class_classic_use_c_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\05_dll_class\classic\use_c_static\UCMake_test_05_dll_class_classic_use_c_static.vcxproj">
+      <Project>{61BFC05B-01F5-3E90-BE53-3FB8B67D80C8}</Project>
+      <Name>UCMake_test_05_dll_class_classic_use_c_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\05_dll_class\classic\use_static\UCMake_test_05_dll_class_classic_use_static.vcxproj">
+      <Project>{45B1744D-AAC6-3F2B-AB8F-E48A19038A72}</Project>
+      <Name>UCMake_test_05_dll_class_classic_use_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\05_dll_class\virtual\gen\UCMake_test_05_dll_class_virtual_gen.vcxproj">
+      <Project>{2F3300AF-A7C9-338E-A783-C4633918D756}</Project>
+      <Name>UCMake_test_05_dll_class_virtual_gen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\05_dll_class\virtual\use_c_dynamic\UCMake_test_05_dll_class_virtual_use_c_dynamic.vcxproj">
+      <Project>{EF0880EB-57CF-3195-9F63-E5E4F12E1A9A}</Project>
+      <Name>UCMake_test_05_dll_class_virtual_use_c_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\05_dll_class\virtual\use_c_static\UCMake_test_05_dll_class_virtual_use_c_static.vcxproj">
+      <Project>{CC363FBC-8F87-35DE-B623-D59763D1D2B8}</Project>
+      <Name>UCMake_test_05_dll_class_virtual_use_c_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\05_dll_class\virtual\use_dynamic\UCMake_test_05_dll_class_virtual_use_dynamic.vcxproj">
+      <Project>{5C723786-15A4-3A25-AC4B-37C9307B8865}</Project>
+      <Name>UCMake_test_05_dll_class_virtual_use_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\05_dll_class\virtual\use_static\UCMake_test_05_dll_class_virtual_use_static.vcxproj">
+      <Project>{25025C0E-A137-347C-B551-DECB0ED9B180}</Project>
+      <Name>UCMake_test_05_dll_class_virtual_use_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\06_static_shared\gen\UCMake_test_06_static_shared_gen_shared.vcxproj">
+      <Project>{F97062C8-F4FD-303B-9FE2-B251F645AACB}</Project>
+      <Name>UCMake_test_06_static_shared_gen_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\06_static_shared\gen\UCMake_test_06_static_shared_gen_static.vcxproj">
+      <Project>{7047131F-E070-3594-B076-FEC7FDD64BA2}</Project>
+      <Name>UCMake_test_06_static_shared_gen_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\06_static_shared\use_shared\UCMake_test_06_static_shared_use_shared.vcxproj">
+      <Project>{C19D10EB-FF9E-3F12-AC97-75531839E3E6}</Project>
+      <Name>UCMake_test_06_static_shared_use_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-build\src\test\06_static_shared\use_static\UCMake_test_06_static_shared_use_static.vcxproj">
+      <Project>{C95B1B8D-6671-3DC9-B861-821029F88A18}</Project>
+      <Name>UCMake_test_06_static_shared_use_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\EMPTY\UGM_EMPTY.vcxproj">
+      <Project>{AC589189-4B41-3734-A984-0CEA9D5346F1}</Project>
+      <Name>UGM_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\00_val\UGM_test_00_val.vcxproj">
+      <Project>{CA17FC9C-C558-372B-831C-8F16A5360DF7}</Project>
+      <Name>UGM_test_00_val</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\01_vec\UGM_test_01_vec.vcxproj">
+      <Project>{FD5E76EE-9C24-3AA9-8D9F-F254BD9C2EA1}</Project>
+      <Name>UGM_test_01_vec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\02_point\UGM_test_02_point.vcxproj">
+      <Project>{C1BF4052-B265-32C4-B326-413C737CE4EE}</Project>
+      <Name>UGM_test_02_point</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\03_mat\UGM_test_03_mat.vcxproj">
+      <Project>{CE15218F-2B8C-31A6-8CC0-1D4DA9D8598D}</Project>
+      <Name>UGM_test_03_mat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\04_rgb_scale\UGM_test_04_rgb_scale.vcxproj">
+      <Project>{F7842CF1-ED29-3BC8-BF43-E96CCE1F75C7}</Project>
+      <Name>UGM_test_04_rgb_scale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\05_quat\UGM_test_05_quat.vcxproj">
+      <Project>{6A24CE69-B9F3-3A93-B14B-16E74F372713}</Project>
+      <Name>UGM_test_05_quat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\06_transform\UGM_test_06_transform.vcxproj">
+      <Project>{E11A7D7D-DFEC-32AD-A5B9-0F906DE29ABD}</Project>
+      <Name>UGM_test_06_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\07_bbox\UGM_test_07_bbox.vcxproj">
+      <Project>{A51CC937-3146-347A-98E4-8166D2815A82}</Project>
+      <Name>UGM_test_07_bbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\08_line\UGM_test_08_line.vcxproj">
+      <Project>{0DF8F85D-75D0-3B53-ADB8-AC254AA0F126}</Project>
+      <Name>UGM_test_08_line</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\09_ray\UGM_test_09_ray.vcxproj">
+      <Project>{AE0B1C94-EADD-3032-AAA5-966311F109BE}</Project>
+      <Name>UGM_test_09_ray</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\10_simd\UGM_test_10_simd.vcxproj">
+      <Project>{0EE6617D-2892-34E7-BA22-731AF0665167}</Project>
+      <Name>UGM_test_10_simd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\11_hvec\UGM_test_11_hvec.vcxproj">
+      <Project>{3C547B19-566A-3288-AC24-CD489455AF36}</Project>
+      <Name>UGM_test_11_hvec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\source\third_party\UGM\src\test\12_v3\UGM_test_12_v3.vcxproj">
+      <Project>{6B03B9F3-F6F0-3319-B7BC-0D2BF724F73D}</Project>
+      <Name>UGM_test_12_v3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\EMPTY\UTemplate_EMPTY.vcxproj">
+      <Project>{8449502B-E2DC-3668-898D-E27FD06CA759}</Project>
+      <Name>UTemplate_EMPTY</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\01_TStr\UTemplate_test_01_TStr.vcxproj">
+      <Project>{9C47FCD4-47B8-3F50-ABE7-745C0E59355D}</Project>
+      <Name>UTemplate_test_01_TStr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\02_List\01_TypeList\UTemplate_test_02_List_01_TypeList.vcxproj">
+      <Project>{8E7813C1-4069-322E-9ADE-A5DE3FBBCBB6}</Project>
+      <Name>UTemplate_test_02_List_01_TypeList</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\02_List\02_TemplateList\UTemplate_test_02_List_02_TemplateList.vcxproj">
+      <Project>{2DEF1686-171A-39FD-BB16-368C3A3005B5}</Project>
+      <Name>UTemplate_test_02_List_02_TemplateList</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\02_List\03_Sort\UTemplate_test_02_List_03_Sort.vcxproj">
+      <Project>{9EEE0CDB-5A9E-396A-8703-C08EA5CB0591}</Project>
+      <Name>UTemplate_test_02_List_03_Sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\03_SI\UTemplate_test_03_SI.vcxproj">
+      <Project>{2DECC140-99DC-37B1-AB36-E2098DF9175E}</Project>
+      <Name>UTemplate_test_03_SI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\06_TypeID\UTemplate_test_06_TypeID.vcxproj">
+      <Project>{FD23CAAE-0865-39BB-AAC1-538E049AD50C}</Project>
+      <Name>UTemplate_test_06_TypeID</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\07_Func\00_FuncTraits\UTemplate_test_07_Func_00_FuncTraits.vcxproj">
+      <Project>{972E573D-7C95-30CB-8522-5620A19C51E2}</Project>
+      <Name>UTemplate_test_07_Func_00_FuncTraits</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\07_Func\01_FuncExpand\UTemplate_test_07_Func_01_FuncExpand.vcxproj">
+      <Project>{23ED95AA-F9D9-3340-BBDA-24A12E102492}</Project>
+      <Name>UTemplate_test_07_Func_01_FuncExpand</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\10_Name\UTemplate_test_10_Name.vcxproj">
+      <Project>{D6C440A3-3375-3F3D-A9FC-1F8FF307BE3B}</Project>
+      <Name>UTemplate_test_10_Name</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\11_NameTratis\UTemplate_test_11_NameTratis.vcxproj">
+      <Project>{2182CEFC-15B2-3843-AFC9-763224AB67E6}</Project>
+      <Name>UTemplate_test_11_NameTratis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\12_Type\UTemplate_test_12_Type.vcxproj">
+      <Project>{C9067C62-B472-309E-9CC3-F54ABF3C708D}</Project>
+      <Name>UTemplate_test_12_Type</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-build\src\test\13_StdName\UTemplate_test_13_StdName.vcxproj">
+      <Project>{1B221CA9-4912-328B-A8F6-956AB7F25184}</Project>
+      <Name>UTemplate_test_13_StdName</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

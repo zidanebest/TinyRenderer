@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\test\07_bbox\main.cpp">
+      <Filter>07_bbox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\test\07_bbox\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\MainDic\TinyRenderer\source\third_party\UGM\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="07_bbox">
+      <UniqueIdentifier>{44ED5C3B-3F99-30F9-8C19-FDC62CA481D8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UCMAKE-SRC\SRC\TEST\05_DLL_CLASS\VIRTUAL\GEN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer -BC:/MainDic/TinyRenderer/build --check-stamp-file C:/MainDic/TinyRenderer/build/_deps/ucmake-build/src/test/05_dll_class/virtual/gen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

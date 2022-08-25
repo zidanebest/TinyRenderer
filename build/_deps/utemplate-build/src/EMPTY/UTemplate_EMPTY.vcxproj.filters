@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\EMPTY\EMPTY.cpp">
+      <Filter>EMPTY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\Func.hpp">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\Name.hpp">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\SI.hpp">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_deque.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_forward_list.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_list.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_map.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_memory.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_queue.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_set.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_span.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_stack.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_string.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_string_view.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_unordered_map.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_unordered_set.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\StdName\Name_vector.hpp">
+      <Filter>include\UTemplate\StdName</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\TStr.hpp">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\TemplateList.hpp">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\Type.hpp">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\TypeList.hpp">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\Util.hpp">
+      <Filter>include\UTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\details\Func.inl">
+      <Filter>include\UTemplate\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\details\Name.inl">
+      <Filter>include\UTemplate\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\details\SI.inl">
+      <Filter>include\UTemplate\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\details\TemplateList.inl">
+      <Filter>include\UTemplate\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\details\ToTTType.inl">
+      <Filter>include\UTemplate\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\details\TypeList.inl">
+      <Filter>include\UTemplate\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\include\UTemplate\details\Util.inl">
+      <Filter>include\UTemplate\details</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\EMPTY\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EMPTY">
+      <UniqueIdentifier>{550F6E4A-B508-37F0-BC7B-25E3CFC35BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{FA21AE7B-8B91-3D3E-8305-AE34E8316FE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UTemplate">
+      <UniqueIdentifier>{3AC5E43A-A413-345D-9FF0-971F8DBDC314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UTemplate\StdName">
+      <UniqueIdentifier>{3C152340-82A1-3379-83AA-3263C861A8B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UTemplate\details">
+      <UniqueIdentifier>{B3BE495C-6087-3613-97B8-E78A31AA34A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

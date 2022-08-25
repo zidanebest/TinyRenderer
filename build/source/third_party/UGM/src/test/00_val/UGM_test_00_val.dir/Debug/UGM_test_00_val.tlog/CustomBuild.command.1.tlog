@@ -1,0 +1,10 @@
+^C:\MAINDIC\TINYRENDERER\SOURCE\THIRD_PARTY\UGM\SRC\TEST\00_VAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer -BC:/MainDic/TinyRenderer/build --check-stamp-file C:/MainDic/TinyRenderer/build/source/third_party/UGM/src/test/00_val/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/ucmake-populate"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/ab7d89d2e0d34fefb3a20ca4e13255a0/ucmake-populate.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/43df3f776081d0aff147c4006c9b60c2/ucmake-populate-complete.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/427aa2765aa0b86e0a5521d86c82d441/ucmake-populate-build.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/427aa2765aa0b86e0a5521d86c82d441/ucmake-populate-configure.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/427aa2765aa0b86e0a5521d86c82d441/ucmake-populate-download.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/427aa2765aa0b86e0a5521d86c82d441/ucmake-populate-install.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/427aa2765aa0b86e0a5521d86c82d441/ucmake-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/427aa2765aa0b86e0a5521d86c82d441/ucmake-populate-patch.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/427aa2765aa0b86e0a5521d86c82d441/ucmake-populate-test.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/427aa2765aa0b86e0a5521d86c82d441/ucmake-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ucmake-populate"
+		],
+		"name" : "ucmake-populate"
+	}
+}

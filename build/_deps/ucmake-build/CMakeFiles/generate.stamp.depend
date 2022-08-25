@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/CMakeLists.txt
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/cmake/CPM.cmake
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/cmake/UbpaBasic.cmake
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/cmake/UbpaBuild.cmake
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/cmake/UbpaDoc.cmake
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/cmake/UbpaDownload.cmake
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/cmake/UbpaGit.cmake
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/cmake/UbpaInit.cmake
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/cmake/UbpaPackage.cmake
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/cmake/UbpaQt.cmake
+C:/MainDic/TinyRenderer/build/_deps/ucmake-src/config/Config.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/BasicConfigVersion-SameMinorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake

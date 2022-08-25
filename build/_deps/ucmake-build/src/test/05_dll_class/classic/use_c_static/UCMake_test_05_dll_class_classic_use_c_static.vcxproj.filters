@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\05_dll_class\classic\use_c_static\main.c">
+      <Filter>use_c_static</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\ucmake-src\src\test\05_dll_class\classic\use_c_static\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="use_c_static">
+      <UniqueIdentifier>{EE415A32-1168-3760-93A0-E36B08E30761}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

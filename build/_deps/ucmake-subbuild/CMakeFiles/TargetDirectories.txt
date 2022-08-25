@@ -1,0 +1,3 @@
+C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/ucmake-populate.dir
+C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/MainDic/TinyRenderer/build/_deps/ucmake-subbuild/CMakeFiles/ZERO_CHECK.dir

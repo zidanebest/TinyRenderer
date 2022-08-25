@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\EMPTY\EMPTY.cpp">
+      <Filter>EMPTY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IAdd.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IAffine.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IAffineRealSubspace.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IAffineSubspace.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArray.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArray1D.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArray1D_Util.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArrayAdd.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArrayCast.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArrayHadamardProduct.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArrayInOut.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArrayLinear.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArrayScalarMul.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IArrayUtil.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\ICross.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IEuclideanA.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IArray\IEuclideanV.hpp">
+      <Filter>include\UGM\Interfaces\IArray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IInOut.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IInnerProduct.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\ILine.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\ILinear.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IMatrix\IMatrix.hpp">
+      <Filter>include\UGM\Interfaces\IMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IMatrix\IMatrixInOut.hpp">
+      <Filter>include\UGM\Interfaces\IMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IMatrix\IMatrixMul.hpp">
+      <Filter>include\UGM\Interfaces\IMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IMatrix\details\IMatrix.inl">
+      <Filter>include\UGM\Interfaces\IMatrix\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IMatrix\details\IMatrixMul.inl">
+      <Filter>include\UGM\Interfaces\IMatrix\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IMatrix\details\svd3.hpp">
+      <Filter>include\UGM\Interfaces\IMatrix\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IMetric.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IMul.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\INorm.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IOLine.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IOPlane.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IPlane.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IRing.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\IScalarMul.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\Interfaces\ImplTraits.hpp">
+      <Filter>include\UGM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\UGM.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\basic.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\bbox.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\config.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\basic.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\bbox.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\euler.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\forward_decl.hpp">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\hvec.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\line.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\material.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\normal.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\plane.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\point.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\quat.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\ray.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\sample.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\svec.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\traits.hpp">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\transform.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\triangle.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\details\val.inl">
+      <Filter>include\UGM\details</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\euler.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\hvec.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\line.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\mat.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\material.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\normal.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\plane.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\point.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\quat.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\ray.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\rgb.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\rgba.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\sample.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\scale.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\svec.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\transform.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\triangle.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\val.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\third_party\UGM\include\UGM\vec.hpp">
+      <Filter>include\UGM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\EMPTY\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\MainDic\TinyRenderer\source\third_party\UGM\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EMPTY">
+      <UniqueIdentifier>{550F6E4A-B508-37F0-BC7B-25E3CFC35BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{FA21AE7B-8B91-3D3E-8305-AE34E8316FE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM">
+      <UniqueIdentifier>{C7109FF0-506B-3F43-B189-D958FF5DB643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\Interfaces">
+      <UniqueIdentifier>{3930CF7C-6AFF-34CE-8105-D8C07D5AF443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\Interfaces\IArray">
+      <UniqueIdentifier>{E329D637-7D57-3F55-B033-19ABE2EA163E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\Interfaces\IMatrix">
+      <UniqueIdentifier>{9E33AD3D-C586-3239-98D2-D85821B7D68B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\Interfaces\IMatrix\details">
+      <UniqueIdentifier>{1A53047D-4388-3291-B0A3-417C588542A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UGM\details">
+      <UniqueIdentifier>{9ABDC62B-D0BC-3BA5-9D5D-2E979D636122}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

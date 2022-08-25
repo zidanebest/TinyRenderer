@@ -1,0 +1,10 @@
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild -BC:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild --check-stamp-file C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

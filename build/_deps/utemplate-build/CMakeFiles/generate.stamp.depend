@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/MainDic/TinyRenderer/build/_deps/utemplate-src/CMakeLists.txt
+C:/MainDic/TinyRenderer/build/_deps/utemplate-src/cmake/InitUCMake.cmake
+C:/MainDic/TinyRenderer/build/_deps/utemplate-src/config/Config.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/BasicConfigVersion-SameMinorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake

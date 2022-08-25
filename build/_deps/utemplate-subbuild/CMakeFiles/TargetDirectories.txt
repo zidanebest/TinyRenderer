@@ -1,0 +1,3 @@
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/utemplate-populate.dir
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/ZERO_CHECK.dir

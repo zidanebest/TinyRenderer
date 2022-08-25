@@ -1,0 +1,150 @@
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\9A13ABEFC50FCBE77183560AB6C662C9\UTEMPLATE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/tmp/utemplate-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/src/utemplate-populate-stamp/Debug/utemplate-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\9A13ABEFC50FCBE77183560AB6C662C9\UTEMPLATE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/tmp/utemplate-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/src/utemplate-populate-stamp/Debug/utemplate-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\9A13ABEFC50FCBE77183560AB6C662C9\UTEMPLATE-POPULATE-UPDATE.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\utemplate-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/tmp/utemplate-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\9A13ABEFC50FCBE77183560AB6C662C9\UTEMPLATE-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/src/utemplate-populate-stamp/Debug/utemplate-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\9A13ABEFC50FCBE77183560AB6C662C9\UTEMPLATE-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\utemplate-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/src/utemplate-populate-stamp/Debug/utemplate-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\9A13ABEFC50FCBE77183560AB6C662C9\UTEMPLATE-POPULATE-BUILD.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\utemplate-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/src/utemplate-populate-stamp/Debug/utemplate-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\9A13ABEFC50FCBE77183560AB6C662C9\UTEMPLATE-POPULATE-INSTALL.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\utemplate-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/src/utemplate-populate-stamp/Debug/utemplate-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\9A13ABEFC50FCBE77183560AB6C662C9\UTEMPLATE-POPULATE-TEST.RULE
+setlocal
+cd C:\MainDic\TinyRenderer\build\_deps\utemplate-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/src/utemplate-populate-stamp/Debug/utemplate-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\165E5CA87D6A2B485E52F26CE7FABF32\UTEMPLATE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/Debug/utemplate-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/utemplate-populate-prefix/src/utemplate-populate-stamp/Debug/utemplate-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKEFILES\D343E3CD3739883006D15B60C2F07E89\UTEMPLATE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAINDIC\TINYRENDERER\BUILD\_DEPS\UTEMPLATE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild -BC:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild --check-stamp-file C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

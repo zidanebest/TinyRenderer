@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\test\10_simd\main.cpp">
+      <Filter>10_simd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\test\10_simd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\MainDic\TinyRenderer\source\third_party\UGM\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="10_simd">
+      <UniqueIdentifier>{9E62D825-C849-3194-B84A-37E7595F48F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\test\12_Type\main.cpp">
+      <Filter>12_Type</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\build\_deps\utemplate-src\src\test\12_Type\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="12_Type">
+      <UniqueIdentifier>{84FE6B4B-ABF5-3D6D-B936-537EE46F1C30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

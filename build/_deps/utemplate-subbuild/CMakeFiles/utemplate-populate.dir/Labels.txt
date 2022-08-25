@@ -1,0 +1,14 @@
+# Target labels
+ utemplate-populate
+# Source files and their labels
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/utemplate-populate
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/d343e3cd3739883006d15b60c2f07e89/utemplate-populate.rule
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/165e5ca87d6a2b485e52f26ce7fabf32/utemplate-populate-complete.rule
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-build.rule
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-configure.rule
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-download.rule
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-install.rule
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-mkdir.rule
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-patch.rule
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-test.rule
+C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-update.rule

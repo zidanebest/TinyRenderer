@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/utemplate-populate"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/d343e3cd3739883006d15b60c2f07e89/utemplate-populate.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/165e5ca87d6a2b485e52f26ce7fabf32/utemplate-populate-complete.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-build.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-configure.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-download.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-install.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-patch.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-test.rule"
+		},
+		{
+			"file" : "C:/MainDic/TinyRenderer/build/_deps/utemplate-subbuild/CMakeFiles/9a13abefc50fcbe77183560ab6c662c9/utemplate-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"utemplate-populate"
+		],
+		"name" : "utemplate-populate"
+	}
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\test\11_hvec\main.cpp">
+      <Filter>11_hvec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MainDic\TinyRenderer\source\third_party\UGM\src\test\11_hvec\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\MainDic\TinyRenderer\source\third_party\UGM\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="11_hvec">
+      <UniqueIdentifier>{8EDC6913-DA7F-33A2-B8FF-3D23F55F2655}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

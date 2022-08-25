@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/MainDic/TinyRenderer/source/third_party/UGM/CMakeLists.txt
+C:/MainDic/TinyRenderer/source/third_party/UGM/cmake/InitUCMake.cmake
+C:/MainDic/TinyRenderer/source/third_party/UGM/config/Config.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/BasicConfigVersion-SameMinorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindGTest.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/GoogleTest.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake
