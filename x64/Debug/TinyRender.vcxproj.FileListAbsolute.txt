@@ -1,1 +1,2 @@
 C:\MainDic\TinyRender\TinyRender\TinyRenderer\x64\Debug\TinyRender.exe
+C:\MainDic\TinyRenderer\x64\Debug\TinyRender.exe

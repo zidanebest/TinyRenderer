@@ -156,11 +156,13 @@
   <ItemGroup>
     <ClCompile Include="Model.cpp" />
     <ClCompile Include="tgaimage.cpp" />
-    <ClCompile Include="TinyRender.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Math.hpp" />
     <ClInclude Include="Model.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="RenderPipe.h" />
     <ClInclude Include="tgaimage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

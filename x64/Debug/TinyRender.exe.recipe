@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\MainDic\TinyRender\TinyRender\TinyRenderer\x64\Debug\TinyRender.exe</FullPath>
+      <FullPath>C:\MainDic\TinyRenderer\x64\Debug\TinyRender.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

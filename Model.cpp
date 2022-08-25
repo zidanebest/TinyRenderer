@@ -31,7 +31,7 @@ Model::Model(const char* inPath)
                 {
                     int index;
                     iss>>index>>trash>>itrash>>trash>>itrash;
-                    --index;
+                    --index;  //obj索引从1开始，这里减去1
                     face[i]=index;
                 }
                 faces.push_back(face);
