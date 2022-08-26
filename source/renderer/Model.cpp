@@ -45,6 +45,7 @@ Model::Model(const std::string& inPath)
                     int index_uv;
                     iss>>index>>trash>>index_uv>>trash>>itrash;
                     --index;  //obj索引从1开始，这里减去1
+                    --index_uv;
                     face_idx[i]=index;
                     face_uv_idx[i]=index_uv;
                 }

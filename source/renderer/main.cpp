@@ -44,7 +44,7 @@ int main(int argc, char* argv[])
              FillTriangle(model,face,face_uv,image,white,Vec3f(0,0,1),depth,0);
          }
          image.flip_vertically();
-         image.write_tga_file("output.tga");
+         image.write_tga_file(std::string(projectDir+"output.tga").c_str());
 
      }
      catch (std::runtime_error& e)

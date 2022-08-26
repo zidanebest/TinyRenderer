@@ -1,0 +1,10 @@
+^C:\MAINDIC\TINYRENDERER\BUILD\CMAKEFILES\36E30080F69D0925799A1761F251275C\GENERATE.STAMP.RULE
+setlocal
+D:\OtherSoftware\Cmake\bin\cmake.exe -SC:/MainDic/TinyRenderer -BC:/MainDic/TinyRenderer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/MainDic/TinyRenderer/build/TinyRenderer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

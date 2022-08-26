@@ -10,7 +10,7 @@ const int width=1200;
 const int height=1200;
 
 Vec3f Barycentric(const Vec3f& inVert0,const Vec3f& inVert1,const Vec3f& inVert2,int inPosx,int inPosy);
-TGAColor Sampler(const Model& model,int index,Vec2f uv);
+TGAColor Sampler(Model& model,int index,Vec2f uv);
 
 Vec2i Model2Screen2i(Vec3f vert)
 {
@@ -54,7 +54,19 @@ void DrawTriangle(const Model& inModel,const Vec3i& inFace,TGAImage& image,TGACo
         DrawLine(Loc1.x,Loc2.x,Loc1.y,Loc2.y,image,white);
     }
 }
-void FillTriangle(const Model& inModel,const Vec3i& inFace,const Vec3i& face_uv,TGAImage& image,TGAColor color,Vec3f lightDir,
+Vec3f Barycentric(Vec3f A, Vec3f B, Vec3f C, Vec3f P) {
+    Vec3f s[2];
+    for (int i=2; i--; ) {
+        s[i][0] = C[i]-A[i];
+        s[i][1] = B[i]-A[i];
+        s[i][2] = A[i]-P[i];
+    }
+    Vec3f u = Cross(s[0], s[1]);
+    if (std::abs(u[2])>1e-2) // dont forget that u[2] is integer. If it is zero then triangle ABC is degenerate
+        return Vec3f(1.f-(u.x+u.y)/u.z, u.y/u.z, u.x/u.z);
+    return Vec3f(-1,1,1); // in this case generate negative coordinates, it will be thrown away by the rasterizator
+}
+void FillTriangle(Model& inModel,const Vec3i& inFace,const Vec3i& face_uv,TGAImage& image,TGAColor color,Vec3f lightDir,
     std::vector<float>& depthBuffer,int texture_idx)
 {
     auto& VertLoc0=inModel.GetVert(inFace[0]);
@@ -69,17 +81,29 @@ void FillTriangle(const Model& inModel,const Vec3i& inFace,const Vec3i& face_uv,
     auto ScreenLoc1=Model2Screen3f(VertLoc1);
     auto ScreenLoc2=Model2Screen3f(VertLoc2);
     
-    if(ScreenLoc0.y>ScreenLoc1.y) std::swap(ScreenLoc0,ScreenLoc1);
-    if(ScreenLoc1.y>ScreenLoc2.y) std::swap(ScreenLoc1,ScreenLoc2);
-    if(ScreenLoc0.y>ScreenLoc1.y) std::swap(ScreenLoc0,ScreenLoc1);
+    if(ScreenLoc0.y>ScreenLoc1.y)
+    {
+        std::swap(ScreenLoc0,ScreenLoc1);
+        std::swap(vert_uv0,vert_uv1);
+    }
+    if(ScreenLoc1.y>ScreenLoc2.y)
+    {
+        std::swap(ScreenLoc1,ScreenLoc2);
+        std::swap(vert_uv1,vert_uv2);
+    }
+    if(ScreenLoc0.y>ScreenLoc1.y)
+    {
+        std::swap(ScreenLoc0,ScreenLoc1);
+        std::swap(vert_uv0,vert_uv1);
+    }
 
-    Vec3f normal=Cross(VertLoc1-VertLoc0,VertLoc2-VertLoc0);
-    normal.Normalize();
-    lightDir.Normalize();
-    float intensity=Dot(normal,lightDir);
-    if(intensity<=0) return;
-    TGAColor actualColor(255*intensity,255*intensity,255*intensity,255);
-    
+    // Vec3f normal=Cross(VertLoc1-VertLoc0,VertLoc2-VertLoc0);
+    // normal.Normalize();
+    // lightDir.Normalize();
+    // float intensity=Dot(normal,lightDir);
+    // if(intensity<=0) return;
+    // TGAColor actualColor(255*intensity,255*intensity,255*intensity,255);
+    //
     float totalHeight=ScreenLoc2.y-ScreenLoc0.y;
     
     float segmentHeight=ScreenLoc1.y-ScreenLoc0.y;
@@ -98,13 +122,13 @@ void FillTriangle(const Model& inModel,const Vec3i& inFace,const Vec3i& face_uv,
                 if(barycentric.u<0||barycentric.v<0||barycentric.u+barycentric.v>1)
                     continue;
                 float z         =   VertLoc0.z*(1-barycentric.u-barycentric.v)+VertLoc1.z*barycentric.u+VertLoc2.z*barycentric.v;
-                //float frag_u    =   vert_uv0.u*(1-barycentric.u-barycentric.v)+vert_uv1.u*barycentric.u+vert_uv2.u*barycentric.v;
-                //float frag_v    =   vert_uv0.v*(1-barycentric.u-barycentric.v)+vert_uv1.v*barycentric.u+vert_uv2.v*barycentric.v;
+                float frag_u    =   vert_uv0.u*(1-barycentric.u-barycentric.v)+vert_uv1.u*barycentric.u+vert_uv2.u*barycentric.v;
+                float frag_v    =   vert_uv0.v*(1-barycentric.u-barycentric.v)+vert_uv1.v*barycentric.u+vert_uv2.v*barycentric.v;
                 if(z>depthBuffer[x+width*y])
                 {
                     depthBuffer[x+width*y]=z;
-                    //TGAColor color=Sampler(inModel,texture_idx,Vec2f(frag_u,frag_v));
-                    image.set(x,y,actualColor);
+                    TGAColor color=Sampler(inModel,texture_idx,Vec2f(frag_u,frag_v));
+                    image.set(x,y,color);
                 }
                 
             }
@@ -126,13 +150,14 @@ void FillTriangle(const Model& inModel,const Vec3i& inFace,const Vec3i& face_uv,
                 if(barycentric.u<0||barycentric.v<0||barycentric.u+barycentric.v>1)
                     continue;
                 float z         =   VertLoc0.z*(1-barycentric.u-barycentric.v)+VertLoc1.z*barycentric.u+VertLoc2.z*barycentric.v;
-                //float frag_u    =   vert_uv0.u*(1-barycentric.u-barycentric.v)+vert_uv1.u*barycentric.u+vert_uv2.u*barycentric.v;
-                //float frag_v    =   vert_uv0.v*(1-barycentric.u-barycentric.v)+vert_uv1.v*barycentric.u+vert_uv2.v*barycentric.v;
+                float frag_u    =   vert_uv0.u*(1-barycentric.u-barycentric.v)+vert_uv1.u*barycentric.u+vert_uv2.u*barycentric.v;
+                float frag_v    =   vert_uv0.v*(1-barycentric.u-barycentric.v)+vert_uv1.v*barycentric.u+vert_uv2.v*barycentric.v;
+                
                 if(z>depthBuffer[x+width*y])
                 {
                     depthBuffer[x+width*y]=z;
-                    //TGAColor color=Sampler(inModel,texture_idx,Vec2f(frag_u,frag_v));
-                    image.set(x,y,actualColor);
+                    TGAColor color=Sampler(inModel,texture_idx,Vec2f(frag_u,frag_v));
+                    image.set(x,y,color);
                 }
                 
             }
@@ -144,16 +169,19 @@ Vec3f Barycentric(const Vec3f& inVert0,const Vec3f& inVert1,const Vec3f& inVert2
 {
     Vec3f barycentric=Cross(Vec3f(inVert1.x-inVert0.x,inVert2.x-inVert0.x,inVert0.x-inPosx),
         Vec3f(inVert1.y-inVert0.y,inVert2.y-inVert0.y,inVert0.y-inPosy));
-    if(std::abs(barycentric.z)<1e-2)
+    if(std::abs(barycentric.z)<1e-5)
     {
         return Vec3f(-1,1,1);
     }
     return barycentric/barycentric.z;
 }
 
-TGAColor Sampler(const Model& model,int index,Vec2f uv)
+TGAColor Sampler(Model& model,int index,Vec2f uv)
 {
-    TGAImage texture=model.GetTexture(index);
+    TGAImage& texture=model.GetTexture(index);
+    Vec2i uvwh(uv[0]*texture.get_width(), uv[1]*texture.get_height());
+    TGAColor color= texture.get(uvwh[0],uvwh[1]);
+    return color;
     return texture.get(static_cast<int>(uv.u*static_cast<float>(texture.get_width())),
         static_cast<int>(uv.v*static_cast<float>(texture.get_height())));
 }
