@@ -4,15 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{5D3DF5CB-21E4-3076-ABD3-F783344745D0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E8C9FA3A-247A-3A2E-B41B-877CCBED5CA6} = {E8C9FA3A-247A-3A2E-B41B-877CCBED5CA6}
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F} = {715C58B8-D6E9-3BA7-8C59-709FEF84192F}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyRenderer", "TinyRenderer.vcxproj", "{E8C9FA3A-247A-3A2E-B41B-877CCBED5CA6}"
-	ProjectSection(ProjectDependencies) = postProject
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F} = {715C58B8-D6E9-3BA7-8C59-709FEF84192F}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{715C58B8-D6E9-3BA7-8C59-709FEF84192F}"
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
@@ -36,14 +30,6 @@ Global
 		{E8C9FA3A-247A-3A2E-B41B-877CCBED5CA6}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
 		{E8C9FA3A-247A-3A2E-B41B-877CCBED5CA6}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
 		{E8C9FA3A-247A-3A2E-B41B-877CCBED5CA6}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F}.Debug|x64.ActiveCfg = Debug|x64
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F}.Debug|x64.Build.0 = Debug|x64
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F}.Release|x64.ActiveCfg = Release|x64
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F}.Release|x64.Build.0 = Release|x64
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
-		{715C58B8-D6E9-3BA7-8C59-709FEF84192F}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {557527F3-4DEB-3390-A19D-E5F66BE2272D}

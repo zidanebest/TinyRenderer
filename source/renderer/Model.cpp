@@ -58,6 +58,7 @@ Model::Model(const std::string& inPath)
     {
         throw std::runtime_error("open file failed!");
     }
+    ifs.close();
 }
 
 int Model::LoadTexture(const std::string& file_name)

@@ -4,4 +4,4 @@
 #include <sstream>
 
 
-#define Assert(condition,info) if(!condition) throw std::runtime_error(info);
+#define Assert(condition,info) if(!condition){ std::cout<<info<<std::endl;__debugbreak();}
