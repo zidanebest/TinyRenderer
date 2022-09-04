@@ -4,6 +4,9 @@
     <ClCompile Include="C:\MainDic\TinyRenderer\source\renderer\Model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\MainDic\TinyRenderer\source\renderer\Vec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\MainDic\TinyRenderer\source\renderer\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -12,13 +15,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\MainDic\TinyRenderer\source\renderer\Math.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="C:\MainDic\TinyRenderer\source\renderer\Model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\MainDic\TinyRenderer\source\renderer\RenderPipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MainDic\TinyRenderer\source\renderer\Vec.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\MainDic\TinyRenderer\source\renderer\pch.h">

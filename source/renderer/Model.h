@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <vector>
 
-#include "Math.hpp"
+#include "Vec.h"
 
 #include <direct.h>
 
